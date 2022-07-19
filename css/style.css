@@ -148,9 +148,6 @@ footer hr {
 footer .footer_links {
 	padding: 50px 0 140px 0;
 }
-footer .footer_links ul {
-}
-
 footer .footer_links ul li {
 	list-style: none;
 	display: inline-block;
@@ -162,5 +159,12 @@ footer .footer_links ul li:last-child {
 footer .footer_links ul li a {
 	text-decoration: none;
 	color: white;
+}
+footer .social_links a {
+	color: white;
+}
+footer .social_links i {
+	padding: 0 20px 20px;
+	font-size: 30px;
 }
 /* footer end */
