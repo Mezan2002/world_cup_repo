@@ -11,13 +11,13 @@ body {
 
 /* banner start */
 .banner {
-	margin-top: 50px;
+	margin: 50px 0 130px 0;
 }
 .container {
 	background-color: #161616;
 	color: white;
 	margin: 0 auto;
-	width: 80%;
+	width: 85%;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -42,10 +42,12 @@ body {
 	color: white;
 	padding: 16px 25px;
 	border-radius: 5px;
-	transition: transform 0.4s ease-in;
+	transition: all 0.4s ease-in;
 }
 .container .banner_text a:hover {
 	transform: scale(1.1);
+	border: 1px solid #dd0000;
+	background-color: transparent;
 }
 .container .banner_text a span {
 	margin-left: 10px;
@@ -58,3 +60,107 @@ body {
 	width: 100%;
 }
 /* banner end */
+/* blog start */
+.blog {
+	margin-bottom: 130px;
+}
+.blog .blog_content {
+	display: flex;
+}
+.blog .blog_menu {
+	width: 305px;
+	height: 305px;
+	background-color: #161616;
+	border-radius: 10px;
+	margin-left: 140px;
+}
+.blog .blog_menu ul li {
+	border-radius: 10px;
+	background-color: white;
+	margin: 35px;
+	padding: 17px 40px;
+	text-align: center;
+	list-style: none;
+	font-weight: 500;
+}
+.blog .blog_menu ul li:active,
+li:visited {
+	color: white;
+	background-color: #dd0000;
+}
+.blog .blog_menu ul li a {
+	text-decoration: none;
+	color: #161616;
+}
+.blog .blog_items {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	row-gap: 24px;
+}
+.blog .blog_items .blog_card {
+	border-radius: 10px;
+	width: 312px;
+	height: 362px;
+	border: 1px solid #e8e8e8;
+	margin-left: 24px;
+}
+.blog .blog_items .blog_card .blog_card_img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.blog .blog_items .blog_card .blog_card_contents {
+	margin-left: 20px;
+}
+.blog .blog_items .blog_card .blog_card_contents a {
+	text-decoration: none;
+	color: #161616;
+	border: 1px solid #161616;
+	border-radius: 5px;
+	padding: 4px 10px;
+}
+.blog .blog_items .blog_card .blog_card_contents h5 {
+	margin: 15px 0 20px 0;
+}
+.blog .blog_items .blog_card .blog_card_contents .icons {
+	margin-right: 30px;
+}
+.blog .blog_items .blog_card .blog_card_contents .icons i {
+	margin-right: 10px;
+}
+/* blog end */
+/* footer start */
+footer {
+	text-align: center;
+	background-color: #161616;
+}
+footer .footer_title h4 {
+	color: white;
+	font-size: 40px;
+	font-weight: 600;
+	padding: 120px 0 50px 0;
+}
+footer hr {
+	width: 1320px;
+	margin: 0 auto;
+	color: #ffffff1a;
+	border: 1px solid #ffffff1a;
+}
+footer .footer_links {
+	padding: 50px 0 140px 0;
+}
+footer .footer_links ul {
+}
+
+footer .footer_links ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 80px;
+}
+footer .footer_links ul li:last-child {
+	margin-right: 0;
+}
+footer .footer_links ul li a {
+	text-decoration: none;
+	color: white;
+}
+/* footer end */
