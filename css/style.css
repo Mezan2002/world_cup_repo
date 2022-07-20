@@ -331,15 +331,16 @@ footer .social_links i {
 		margin: 0 auto;
 	}
 	.container .banner_text {
-		width: 80%;
+		width: 60%;
+		height: 60%;
 		margin-top: 50px;
-		margin-left: 76px;
-		margin-bottom: 60px;
+		margin-left: 30px;
+		margin-bottom: 90px;
 	}
 	.container .banner_img {
-		width: 50%;
-		height: 70%;
-		margin-top: 115px;
+		width: 40%;
+		height: 20%;
+		margin-top: 230px;
 	}
 	/* banner end */
 
@@ -361,6 +362,7 @@ footer .social_links i {
 	.blog .blog_menu ul li {
 		border: 1px solid #4d4d4d;
 	}
+
 	.blog .blog_items {
 		grid-template-columns: repeat(2, 1fr);
 		justify-content: center;
