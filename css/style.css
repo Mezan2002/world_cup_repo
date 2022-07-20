@@ -17,7 +17,8 @@ body {
 	background-color: #161616;
 	color: white;
 	margin: 0 auto;
-	width: 85%;
+	width: 1321px;
+	height: 646px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -72,7 +73,7 @@ body {
 	height: 305px;
 	background-color: #161616;
 	border-radius: 10px;
-	margin-left: 140px;
+	margin-left: 290px;
 }
 .blog .blog_menu ul li {
 	border-radius: 10px;
@@ -222,3 +223,9 @@ footer .social_links i {
 	font-size: 30px;
 }
 /* footer end */
+
+@media only screen and (max-width: 576px) {
+	.banner {
+		background-color: #dd0000;
+	}
+}
