@@ -123,7 +123,22 @@ body {
 .blog .blog_items .blog_card .blog_card_contents .icons i {
 	margin-right: 10px;
 }
-
+/* tab screen button start */
+.blog .blog_content .tab_screen_btn {
+	text-decoration: none;
+	margin: 50px auto 0;
+	width: 15%;
+	background-color: #dd0000;
+	padding: 16px 15px;
+	border-radius: 5px;
+}
+.blog .blog_content .tab_screen_btn a {
+	text-align: center;
+	text-decoration: none;
+	padding: 16px 25px;
+	color: white;
+}
+/* tab screen button end  */
 /*----------------------
  Group page css start 
  ----------------------*/
@@ -281,6 +296,9 @@ footer .social_links i {
 	.blog .blog_items .blog_card {
 		margin: 0 auto;
 	}
+	.blog .blog_content .tab_screen_btn {
+		display: none;
+	}
 	/* blog end */
 	/* footer start */
 	footer hr {
@@ -297,3 +315,76 @@ footer .social_links i {
 	/* footer end */
 }
 /* mobile device media query end */
+
+/* tablet screen media query start */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	/* banner start */
+	.container {
+		width: 90%;
+		height: 90%;
+		margin: 0 auto;
+	}
+	.container .banner_text {
+		width: 50%;
+		margin-top: 50px;
+		margin-left: 76px;
+		margin-bottom: 60px;
+	}
+	.container .banner_img {
+		width: 50%;
+		height: 100%;
+		margin-top: 115px;
+	}
+	/* banner end */
+
+	/* blog start */
+	.blog .blog_content {
+		flex-direction: column;
+	}
+	.blog .blog_menu {
+		width: 90%;
+		height: 90%;
+		margin: 0 auto;
+		background-color: white;
+	}
+	.blog .blog_menu ul {
+		display: flex;
+		justify-content: center;
+		margin: 50px 0 30px 0;
+	}
+	.blog .blog_menu ul li {
+		border: 1px solid #4d4d4d;
+	}
+	.blog .blog_items {
+		grid-template-columns: repeat(2, 1fr);
+		justify-content: center;
+		margin: 0 auto;
+	}
+	.blog .blog_content .blog_items .tab_view_none {
+		display: none;
+	}
+	/* blog end */
+
+	/* footer start */
+	footer hr {
+		width: 80%;
+	}
+	footer .footer_links {
+		padding: 30px 105px 55px 95px;
+	}
+	footer .footer_links ul li {
+		margin: 0;
+		padding: 20px 30px;
+	}
+	/* footer end */
+}
+/* tablet screen media query emd  */
+
+/* laptop screen media query start */
+@media only screen and (min-width: 992px) and (max-width: 1920px) {
+	.blog .blog_content .tab_screen_btn {
+		display: none;
+	}
+}
+
+/* laptop screen media query end */
