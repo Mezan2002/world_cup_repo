@@ -83,11 +83,6 @@ body {
 	list-style: none;
 	font-weight: 500;
 }
-.blog .blog_menu ul li:active,
-li:visited {
-	color: white;
-	background-color: #dd0000;
-}
 .blog .blog_menu ul li a {
 	text-decoration: none;
 	color: #161616;
@@ -127,6 +122,65 @@ li:visited {
 .blog .blog_items .blog_card .blog_card_contents .icons i {
 	margin-right: 10px;
 }
+
+/*----------------------
+ Group page css start 
+ ----------------------*/
+
+.blog .blog_items .group_card {
+	width: 312px;
+	height: 410px;
+}
+.group {
+	padding: 30px;
+	color: #161616;
+}
+.group h3 {
+	text-align: center;
+}
+.group_list {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+}
+.group_list .team_icon img {
+	border-radius: 5%;
+	margin-right: 20px;
+}
+/*----------------------
+ Group page css end 
+ ----------------------*/
+
+/*----------------------
+  Match Page CSS start  
+ ----------------------*/
+.blog .blog_items .match_card {
+	width: 312px;
+	height: 242px;
+}
+#team_img {
+	padding: 53px 30px 0;
+	display: flex;
+	justify-content: space-around;
+}
+#team_img h5 {
+	margin: auto 0;
+}
+.match_date {
+	text-align: center;
+	margin-top: 20px;
+}
+.match_date h5 {
+	font-size: 20px;
+}
+.match_date p {
+	color: #4d4d4d;
+	margin-top: 10px;
+}
+/*----------------------
+  Match Page CSS end  
+ ----------------------*/
+
 /* blog end */
 /* footer start */
 footer {
